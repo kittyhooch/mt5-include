@@ -598,7 +598,7 @@ public:
    double            KijunSen(const int index) const;
    double            SenkouSpanA(const int index) const;
    double            SenkouSpanB(const int index) const;
-   double            ChinkouSpan(const int index) const;
+   double            ChikouSpan(const int index) const; //Incorrectly used "ChinkouSpan" for the Chikou span
    //--- method of identifying
    virtual int       Type(void) const { return(IND_ICHIMOKU); }
 
